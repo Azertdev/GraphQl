@@ -30,7 +30,7 @@ const fetchData = async (token) => {
               path: { _like: "%/dakar/div-01%" }
               _and: [
                 { path: { _nlike: "%checkpoint%" } }
-                { path: { _nlike: "%piscine-js%" } }
+                { path: { _nlike: "%piscine-js-2%" } }
                 { path: { _nlike: "%piscine-rust%" } }
               ]
             }
